@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BuyMore Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h1 class="logo">BuyMore</h1>
+      <nav class="nav">
+        <button class="nav-btn active"><span class="material-icons">explore</span> Explore New</button>
+        <button class="nav-btn"><span class="material-icons">store</span> Clothing and Shoes</button>
+        <button class="nav-btn"><span class="material-icons">card_giftcard</span> Gifts and Living</button>
+        <button class="nav-btn"><span class="material-icons">lightbulb</span> Inspiration</button>
+      </nav>
+      <div class="quick-actions">
+        <p class="label">Quick actions</p>
+        <button class="quick-btn">+ Request for product</button>
+        <button class="quick-btn">+ Add member</button>
+      </div>
+      <div class="last-orders">
+        <p class="label">Last orders</p>
+        <p>DXC Nike... <span class="view">view order</span></p>
+        <p>Outerwear... <span class="view">view order</span></p>
+        <button class="view">See all</button>
+      </div>
+      <button class="logout">Log out</button>
+    </aside>
+
+    <!-- Main content -->
+    <main class="main">
+      <header class="main-header">
+        <div>
+          <h2>37 Orders</h2>
+          <p>Last 7 days</p>
+        </div>
+        <div class="header-actions">
+          <div class="toggle">
+            <button class="toggle-btn active">Dashboard</button>
+            <button class="toggle-btn">Website</button>
+          </div>
+          <div class="search">
+            <span class="material-icons">search</span>
+            <input type="text" placeholder="Search" />
+          </div>
+          <div class="cart-profile">
+            <button class="cart">
+              <span class="material-icons">shopping_cart</span>
+              <span class="badge">8</span>
+            </button>
+            <img src="https://i.pravatar.cc/32" alt="Profile" />
+          </div>
+        </div>
+      </header>
+
+      <div class="filters">
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">Men</button>
+        <button class="filter-btn">Women</button>
+      </div>
+
+      <div class="products">
+        <div class="promo green">
+          <h3>GET UP TO 50% OFF</h3>
+          <button>Get Discount</button>
+          
+        </div>
+        <div class="promo yellow">
+          <h3>Winter's weekend</h3>
+          <p>keep it casual</p>
+        </div>
+        
+       
+      </div>
+    </main>
+  </div>
+</body>
+</html>
